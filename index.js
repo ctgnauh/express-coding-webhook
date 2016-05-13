@@ -22,7 +22,7 @@ function codingWebhook (options) {
       return next();
     }
     codingHandler.emit(event, req.body, res);
-    return next();
+    return 0;
   };
 }
 
