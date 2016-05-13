@@ -1,0 +1,25 @@
+{
+  "name": "express-coding-webhook",
+  "version": "0.0.1",
+  "description": "A Express middleware for handle Coding Webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ctgnauh/express-coding-webhook.git"
+  },
+  "keywords": [
+    "coding",
+    "webhook",
+    "express",
+    "middleware"
+  ],
+  "author": "ctgnauh <huangtc@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctgnauh/express-coding-webhook/issues"
+  },
+  "homepage": "https://github.com/ctgnauh/express-coding-webhook#readme"
+}
