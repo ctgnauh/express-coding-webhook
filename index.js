@@ -1,6 +1,6 @@
 /**
  * @fileOverview
- * @name express-coding-webhook.js
+ * @name index.js
  * @author ctgnauh <huangtc@outlook.com>
  * @license MIT
  */
@@ -14,15 +14,15 @@ function codingWebhook (options) {
   return function (req, res, next) {
     if (req.body.token !== token) {
       console.log('token error');
-      next();
+      return next();
     }
     var event = req.headers['x-coding-event'];
     if (!event) {
       console.log('not coding.net request');
-      next();
+      return next();
     }
     codingHandler.emit(event, req.body, res);
-    next();
+    return next();
   };
 }
 
