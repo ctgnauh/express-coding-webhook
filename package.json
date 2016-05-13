@@ -1,6 +1,6 @@
 {
   "name": "express-coding-webhook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Express middleware for handle Coding Webhooks",
   "main": "index.js",
   "scripts": {
